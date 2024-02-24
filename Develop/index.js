@@ -73,7 +73,6 @@ function init() {
             },
         ])
         .then((results) => {
-       
             writeToFile("README.md", generateMarkdown(results));
         })
 };
