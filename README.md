@@ -3,6 +3,9 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
   
 ## Description
+
+To see a demonstration of this tool, please watch this video: https://drive.google.com/file/d/1M6iKPm12Nabp3bKn3q9drA8lvUrlGiOr/view  
+
 This tool is used to help users quickly generate their README.md file. Instead of creating a readme from a blank file, this tool will ask the user a series of questions which will automatically populate a readme template. It is meant to provide a quick output for a task that not everyone enjoys doing. 
 
 ## Table of Contents 
