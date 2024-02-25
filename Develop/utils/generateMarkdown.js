@@ -1,6 +1,7 @@
 const port = require('./licenseObj')
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
+// This references the 2D array from licenseObj.js and returns a license badge
 function renderLicenseBadge(license) {
   for (let i = 0; i < port.licenseData.length; i++)
     switch (license) {
@@ -12,6 +13,7 @@ function renderLicenseBadge(license) {
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
+// This references the 2D array from licenseObj.js and returns a license url
 function renderLicenseLink(license) {
   for (let i = 0; i < port.licenseData.length; i++)
     switch (license) {
@@ -23,6 +25,7 @@ function renderLicenseLink(license) {
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
+// This references the 2D array from licenseObj.js and returns the license 
 function renderLicenseSection(license) {
   for (let i = 0; i < port.licenseData.length; i++)
     switch (license) {
@@ -33,6 +36,7 @@ function renderLicenseSection(license) {
 };
 
 // TODO: Create a function to generate markdown for README
+// This function consists of the layout for the readme. 
 function generateMarkdown(data) {
   return `# ${data.title} 
   
