@@ -1,46 +1,29 @@
-# ReadMe Generator 
-
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+# ReadMe Generator (SAMPLE) 
   
-## Description
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+  
+  ## Description
+  This tool is used to help users quickly generate their README.md file. Instead of creating a readme from a blank file, this tool will ask the user a series of questions which will automatically populate a readme template. It is meant to provide a quick output for a task that not everyone enjoys doing. 
 
-To see a demonstration of this tool, please watch this video: https://drive.google.com/file/d/1M6iKPm12Nabp3bKn3q9drA8lvUrlGiOr/view  
+  ## Table of Contents 
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [License](#license)
+  - [Contributing](#contributing)
+  - [Tests](#tests)
+  - [Questions](#questions)
 
-This tool is used to help users quickly generate their README.md file. Instead of creating a readme from a blank file, this tool will ask the user a series of questions which will automatically populate a readme template. It is meant to provide a quick output for a task that not everyone enjoys doing. 
+  ## Installation
+  This is the section where you can list all the things the end user needs to do before using your tool/application.
 
-## Table of Contents 
-- [Installation](#installation)
-- [Usage](#usage)
-- [Credits](#credits)
-- [License](#license)
-- [Questions](#questions)
+  ## Usage
+  This is the section where you can discuss how the user can apply your application and what to expect after the installation. 
 
-## Installation
-- Install Node.js using the download link above if it’s not already installed 
-- Using GitBash (or your preferred CLI), navigate to the folder you want to clone the repo to and run: git clone https://github.com/jheersink8/readme-generator.git
-- Open the repo using VS Code
-- From the VS Code terminal run the command: npm install inquirer @8.2.4
-- From the VS Code terminal, CD into the directory which contains index.js
-- Run the command: node index.js
-
-
-## Usage
-After following the install instructions, you will be presented with a series of nine questions that are used to create a quality readme file. All questions, minus the one concerning the license, require text input from the user. The license related question, on the other hand, will present you with the choice of selecting one of the 12 licenses available on GitHub or you can select “non applicable” if you do not with to choose a license. After you answer all the questions, a file named “README.md” will appear in the VS Code explorer bar or it can be accessed via your local machine’s file explorer.  
-
-![A screenshot of the VS Code terminal with the questions the user is asked for the ReadMe generator.](./Develop/media/screenshot.png)
-
-## Credits
-- Starter code provided by Denver University in the Bootcamp course ID DU-VIRT-FSF-PT-12-2023-U-LOLC-MWTH under Module 9 Challenge. All code was modified and submitted by Jordan R. Heersink.
-- This tool uses node.js and the inquirer v 8.2.4 npm
-- License badges acquired from https://gist.github.com/kofiav/c1059e1075b67582e86b07aa9759e20d, https://gist.github.com/lukas-h/2a5d00690736b4c3a7ba, & https://github.com/MarkedDown/Licenses
-- License text files acquired from https://github.com/licenses/license-templates/tree/master/templates
-- ReadMe questions acquired from https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide 
-
-## License
-https://opensource.org/licenses/MIT
+  ## License
+  https://opensource.org/licenses/MIT
 
 
-    Copyright (c) {2024} {Jordan R. Heersink}
+  Copyright (c) {{ year }} {{ organization }}
 
     Permission is hereby granted, free of charge, to any person obtaining a copy
     of this software and associated documentation files (the "Software"), to deal
@@ -60,5 +43,13 @@ https://opensource.org/licenses/MIT
     OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE
     OR OTHER DEALINGS IN THE SOFTWARE.
 
-## Questions
-For questions, please reference my GitHub profile at https://github.com/jheersink8 or email me at jheersink8@gmail.com.
+
+
+  ## Contributing
+  No contributions will be accepted at this time. 
+
+  ## Tests
+  No testing is needed at this time. 
+
+  ## Questions
+  For questions, please reference my GitHub profile at https://github.com/Example or email me at example@gmail.com.
